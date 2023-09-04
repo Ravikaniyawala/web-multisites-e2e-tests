@@ -1,0 +1,25 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright:runnzbtests": "npx playwright test tests/NewsTests/ --config=tests/config_zb.js",
+    "playwright:runacctests": "npx playwright test tests/AudioTests/ --config=tests/config_acc.js",
+    "playwright:runcoasttests": "npx playwright test tests/AudioTests/ --config=tests/config_coast.js",
+    "playwright:runflavatests": "npx playwright test tests/AudioTests/ --config=tests/config_flava.js",
+    "playwright:runhaurakitests": "npx playwright test tests/AudioTests/ --config=tests/config_hauraki.js",
+    "playwright:runhitstests": "npx playwright test tests/AudioTests/ --config=tests/config_hits.js",
+    "playwright:runhzmtests": "npx playwright test tests/AudioTests/ --config=tests/config_zm.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-playwright": "^1.17.4",
+    "@playwright/test": "^1.35.1"
+  },
+  "dependencies": {
+    "npm-clean": "^1.0.3"
+  }
+}

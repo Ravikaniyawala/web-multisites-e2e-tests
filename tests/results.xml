@@ -1,0 +1,830 @@
+<testsuites id="" name="" tests="16" failures="6" skipped="10" errors="0" time="167.7022769999504">
+<testsuite name="AudioTests/audio-article-tests-RAD1-3190.spec.js" timestamp="2023-06-20T09:47:50.191Z" hostname="ZB chromium" tests="6" failures="6" skipped="0" time="144.699" errors="0">
+<testcase name="Audio Article Tests › Breadcrumbs" classname="AudioTests/audio-article-tests-RAD1-3190.spec.js" time="25.392">
+<failure message="audio-article-tests-RAD1-3190.spec.js:28:5 Breadcrumbs" type="FAILURE">
+<![CDATA[  [ZB chromium] › AudioTests/audio-article-tests-RAD1-3190.spec.js:28:5 › Audio Article Tests › Breadcrumbs 
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:31:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:31:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:31:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry1/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Breadcrumbs-ZB-chromium-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Audio Article Tests › DateTime" classname="AudioTests/audio-article-tests-RAD1-3190.spec.js" time="23.378">
+<failure message="audio-article-tests-RAD1-3190.spec.js:36:5 DateTime" type="FAILURE">
+<![CDATA[  [ZB chromium] › AudioTests/audio-article-tests-RAD1-3190.spec.js:36:5 › Audio Article Tests › DateTime 
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:38:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:38:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:38:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry1/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-DateTime-ZB-chromium-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Audio Article Tests › SocialSharing Icon" classname="AudioTests/audio-article-tests-RAD1-3190.spec.js" time="24.217">
+<failure message="audio-article-tests-RAD1-3190.spec.js:44:5 SocialSharing Icon" type="FAILURE">
+<![CDATA[  [ZB chromium] › AudioTests/audio-article-tests-RAD1-3190.spec.js:44:5 › Audio Article Tests › SocialSharing Icon 
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:47:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:47:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:47:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry1/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-SocialSharing-Icon-ZB-chromium-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Audio Article Tests › Related articles" classname="AudioTests/audio-article-tests-RAD1-3190.spec.js" time="24.361">
+<failure message="audio-article-tests-RAD1-3190.spec.js:51:5 Related articles" type="FAILURE">
+<![CDATA[  [ZB chromium] › AudioTests/audio-article-tests-RAD1-3190.spec.js:51:5 › Audio Article Tests › Related articles 
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:54:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:54:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:54:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry1/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Related-articles-ZB-chromium-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Audio Article Tests › Curated Related articles" classname="AudioTests/audio-article-tests-RAD1-3190.spec.js" time="24.173">
+<failure message="audio-article-tests-RAD1-3190.spec.js:58:5 Curated Related articles" type="FAILURE">
+<![CDATA[  [ZB chromium] › AudioTests/audio-article-tests-RAD1-3190.spec.js:58:5 › Audio Article Tests › Curated Related articles 
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:61:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:61:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:61:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry1/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-Curated-Related-articles-ZB-chromium-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Audio Article Tests › App Download Modal test on articles" classname="AudioTests/audio-article-tests-RAD1-3190.spec.js" time="23.178">
+<failure message="audio-article-tests-RAD1-3190.spec.js:65:5 App Download Modal test on articles" type="FAILURE">
+<![CDATA[  [ZB chromium] › AudioTests/audio-article-tests-RAD1-3190.spec.js:65:5 › Audio Article Tests › App Download Modal test on articles 
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:68:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:68:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(received).toBeVisible()
+    Call log:
+      - expect.toBeVisible with timeout 5000ms
+      - waiting for locator('article.article').first()
+
+
+       at Utilities/BasePage.js:14
+
+      12 |
+      13 |     async isElementVisible(pageElement) {
+    > 14 |         await expect(this.page.locator(pageElement).first()).toBeVisible();
+         |                                                              ^
+      15 |     }
+      16 |
+      17 |     async isElementTextVisible(pageElement,text) {
+
+        at AudioHomePage.isElementVisible (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/Utilities/BasePage.js:14:62)
+        at AudioHomePage.goToArticle (/Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/PageObjects/AudioSitePages/audio-site-home-page.js:46:16)
+        at /Users/ravikaniyawala/Downloads/trn-umbraco/NZME.Radiosites-e2e-ux-tests/tests/AudioTests/audio-article-tests-RAD1-3190.spec.js:68:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry1/trace.zip]]
+https://dev-www.zmonline.com/
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/AudioTests-audio-article-tests-RAD1-3190-Audio-Article-Tests-App-Download-Modal-test-on-articles-ZB-chromium-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="AudioTests/audio-flyout-header-tests.spec.js" timestamp="2023-06-20T09:47:50.191Z" hostname="ZB chromium" tests="10" failures="0" skipped="10" time="0" errors="0">
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Region Picker" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Search" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Listen Live" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Open &amp; Close" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Sub navigation items" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-more flyout menu" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Shows slider" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Logo navigation" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-Podcast" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Audio Site Flyout Header Tests › Flyout Header-external and blank link" classname="AudioTests/audio-flyout-header-tests.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>
